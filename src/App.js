@@ -1,10 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import Sidebar from './containers/Sidebar';
+import Sidebar from './Sidebar/Sidebar';
+import Feed from './feed/Feed';
+
 function App() {
   return (
-    <div>
-      <Sidebar title="Bu title" data={{name: 'Khasan'}}  />
+    <div className="App container">
+
+      {/* Sidebar  */}
+      <Sidebar />
+      {/* Feed */}
+      <Feed />
+      {/* Widgets  */}
     </div>
   );
 }
