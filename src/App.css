@@ -4,9 +4,10 @@ body{
 }
 .App{
     display: flex;
+    height: 100vh;
 }
 .container{
-   width: 1200px;
+   width: 1150px;
     margin: 0 auto;
 }
 @media only screen and (min-width: 1100px) {
