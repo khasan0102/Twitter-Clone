@@ -2,12 +2,14 @@
   border-right: 1px solid var(--twitter-background-color) ;
   flex: 0.3;
   padding: 10px;
-  height: 100vh;
   max-width: 210px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
 }
 @media only screen and (max-width: 1920px){
   .sidebar{
-   max-width:  250px;
+    max-width:  250px;
   }
 }
 .sidebar > a{

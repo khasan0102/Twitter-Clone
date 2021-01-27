@@ -4,8 +4,9 @@ body{
 }
 .App{
     display: flex;
-    height: 100vh;
+    position: sticky;
 }
+
 .container{
    width: 1150px;
     margin: 0 auto;
